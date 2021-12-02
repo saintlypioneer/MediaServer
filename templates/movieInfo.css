@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Poppins, sans-serif;
+    /* background-color: rgb(26, 24, 24); */
+}
+
+.carousel{
+    width: 100%;
+}
+
+.carousel img{
+    width: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    /* height: auto; */
+}
+
+.progress{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    color: yellow;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.left{
+    flex: 2;
+    text-align: center;
+}
+
+.left button{
+    background-color: rgb(26, 26, 26);
+    border: none;
+    color: rgb(255, 255, 255);
+    width: 70%;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.right{
+    flex: 6;
+}
+
+.right p{
+    margin: 15px;
+}
+
+.title{
+    font-size: 2rem;
+}
+
+.desFaded p{
+    color: rgb(100, 100, 100);
+}
+
+.seasons{
+    width: 100%;
+    margin: 0px;
+    padding: 15px;
+    display: none;
+}
+
+.episodes{
+    width: 100%;
+}
+
+.episode{
+    width: 15%;
+    min-width: 180px;
+    float: left;
+    margin: 15px;
+}
+
+.episode img{
+    width: 100%;
+    border: 3px solid rgb(239, 135, 51);
+    padding: 4px;
+    border-radius: 15px;
+}

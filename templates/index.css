@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(26, 24, 24);
+}
+
+.card{
+    display: inline-block;
+    margin: 3px;
+    width: 10%;
+    min-width: 90px;
+    /* background-color: gray; */
+    border-radius: 15px;
+}
+
+.image img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.bottom{
+    padding-left: 2px;
+}
+
+.title{
+    color: rgb(220, 220, 220);
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.desc{
+    color: rgb(133, 133, 133);
+    font-size: 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
