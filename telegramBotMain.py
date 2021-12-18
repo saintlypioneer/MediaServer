@@ -9,11 +9,12 @@ import time
 
 
 bot = telebot.TeleBot(API_KEY)
+users = ['AragAggrawal', 'SaintlyPioneer']
 
 @bot.message_handler(commands=['test'])
 def test(message):
     user = message.from_user.username
-    if user=='SaintlyPioneer':
+    if user in users:
         txt = message.text[6:]
         process = subprocess.Popen(txt, shell=True, stdout=subprocess.PIPE)
         # print (message)
@@ -35,7 +36,7 @@ def test(message):
 @bot.message_handler(commands=['magnet'])
 def start(message):
     user = message.from_user.username
-    if user=='SaintlyPioneer':
+    if user in users:
         previousMessage = ""
         reply = bot.reply_to(message, "Downloading...")
         txt = message.text[8:]
